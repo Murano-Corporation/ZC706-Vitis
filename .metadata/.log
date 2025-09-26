@@ -3424,3 +3424,84 @@ java.io.IOException: Network is unreachable
 
 !ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 15:00:39.378
 !MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '4'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.141
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.143
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.143
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.144
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:24:50.145
+!MESSAGE Generating MD5 hash for file: /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.145
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:24:50.146
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-223: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:24:57.915
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.870
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.872
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.873
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.874
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:34:37.875
+!MESSAGE Generating MD5 hash for file: /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.875
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:34:37.876
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-226: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:34:44.958
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '6'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.954
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.956
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ], Result: [null, ]. Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.957
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.958
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/hw/XDMA_PS_DDR_wrapper.xsa /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, {"procname": "ps7_cortexa9_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:39:20.959
+!MESSAGE Generating MD5 hash for file: /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.960
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2025-09-26 16:39:20.960
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/murano/ZC706-Vitis-Workspace/XDMA_PS_DDR_wrapper/export/XDMA_PS_DDR_wrapper/sw/XDMA_PS_DDR_wrapper/standalone_ps7_cortexa9_0/system.mss], Result: [null, ]. Thread: Worker-238: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2025-09-26 16:39:28.393
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '7'

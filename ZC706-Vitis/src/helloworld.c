@@ -52,24 +52,31 @@
 #include "xil_io.h"
 #include "sleep.h"
 
+/*
+ * Only Setting the below registers with the command
+ *
+ * */
 #define ORIN_SENDTO_DDR_BASEADDRESS 0x0
 #define ORIN_SENDTO_DDR_HIGHADDRESS 0xA
 
 int main()
 {
+	/* Initializing Platform */
     init_platform();
 
+	/* Prints */
     print("Hello World\n\r");
     print("Successfully ran Hello World application");
     xil_printf(".......................\r\n");
 
-    u32 a,b,c;
-    for (a=1, b=2; a<6; a=a+2, b=b+3) {}
-    volatile u32* ptr = (u32*)ORIN_SENDTO_DDR_BASEADDRESS;
-    for (int addr=ORIN_SENDTO_DDR_BASEADDRESS; addr<ORIN_SENDTO_DDR_BASEADDRESS+10; addr++) {
-    	u32 val = Xil_In32(addr);
-    	xil_printf("Value at Addr, value = ", val);
+    /* DDR Memory to be reading from the PS-DDR connection */
+    volatile u8* ptr = (u8*)ORIN_SENDTO_DDR_BASEADDRESS;
+    for (int addr = ORIN_SENDTO_DDR_BASEADDRESS; addr < ORIN_SENDTO_DDR_HIGHADDRESS; addr++) {
+    	u8 val = Xil_In8(addr);
+    	xil_printf("Value at Addr, value = 0x%X\n", val);
     }
+
+    /* Cleaning Up Platform */
     cleanup_platform();
     return 0;
 }
