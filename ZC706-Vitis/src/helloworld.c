@@ -48,7 +48,12 @@
 #include <stdio.h>
 #include "platform.h"
 #include "xil_printf.h"
+#include "xparameters.h"
+#include "xil_io.h"
+#include "sleep.h"
 
+#define ORIN_SENDTO_DDR_BASEADDRESS 0x0
+#define ORIN_SENDTO_DDR_HIGHADDRESS 0xA
 
 int main()
 {
@@ -56,6 +61,15 @@ int main()
 
     print("Hello World\n\r");
     print("Successfully ran Hello World application");
+    xil_printf(".......................\r\n");
+
+    u32 a,b,c;
+    for (a=1, b=2; a<6; a=a+2, b=b+3) {}
+    volatile u32* ptr = (u32*)ORIN_SENDTO_DDR_BASEADDRESS;
+    for (int addr=ORIN_SENDTO_DDR_BASEADDRESS; addr<ORIN_SENDTO_DDR_BASEADDRESS+10; addr++) {
+    	u32 val = Xil_In32(addr);
+    	xil_printf("Value at Addr, value = ", val);
+    }
     cleanup_platform();
     return 0;
 }
